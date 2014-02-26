@@ -20,7 +20,14 @@ mkdir ~/gngeo
 cp ~/gngeo-0.8/src/gngeo ~/gngeo
 cp ~/gngeo-0.8/gngeo.dat/gngeo_data.zip ~/gngeo/
 
-# neogeo roms directory make
+# neogeo roms directory make & roms download
 cd ~/gngeo
 mkdir roms
 wget http://www.rasplay.org/rpi/neogeo.zip
+
+
+# neogeo config setting
+cd ~
+mkdir .gngeo
+cd .gngeo
+wget http://sheasilverman.com/rpi/gngeorc
